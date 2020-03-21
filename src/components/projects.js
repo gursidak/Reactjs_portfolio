@@ -113,11 +113,11 @@ class projects extends Component {
         return (
             <div className='category-tabs'>
                 <Tabs activeTab= {this.state.activetab} onChange ={ (tabId)=>this.changeState(tabId)}  >
-                    <Tab>React</Tab>
-                    <Tab>Angular</Tab>
-                    <Tab>vuejs</Tab>
-                    <Tab>mongo-db</Tab>
-
+                    <Tab className='tabs'>React</Tab>
+                    <Tab className='tabs'>Angular</Tab>
+                    <Tab className='tabs'>vuejs</Tab>
+                    <Tab className='tabs'>mongo-db</Tab>
+                    
                 </Tabs>
 
                 <section className='projects-grid'>
