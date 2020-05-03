@@ -18,6 +18,16 @@ class projects extends Component {
 
     toggleCategories(){
 
+
+
+        if(this.state.activetab === 1){
+            return(
+                <div>
+                    <h1>Hello HTML CSS lovers</h1>
+                </div>
+            )
+        }
+
         if(this.state.activetab === 0){
              return (
                     
@@ -30,7 +40,7 @@ class projects extends Component {
                             React project #1
                         </CardTitle>
                         <CardText>
-                            My first React project with a drm to become a front end developer. this is my portfolio .
+                            My first React project with a drm to become a MERN stack developer. this is my portfolio .
                         </CardText>
 
                         <CardActions border>
@@ -51,7 +61,7 @@ class projects extends Component {
                             React project #2
                         </CardTitle>
                         <CardText>
-                            My first React project with a drm to become a front end developer. this is my portfolio .
+                            My first React project with a drm to become a MERN stack developer. this is my portfolio .
                         </CardText>
 
                         <CardActions border>
@@ -73,7 +83,7 @@ class projects extends Component {
                             React project #3
                         </CardTitle>
                         <CardText>
-                            My first React project with a drm to become a front end developer. this is my portfolio .
+                            My first React project with a drm to become a MERN stack developer. this is my portfolio .
                         </CardText>
 
                         <CardActions border>
@@ -91,16 +101,16 @@ class projects extends Component {
                 );
         }
             
-       else if (this.state.activetab == 1){
+       else if (this.state.activetab == 2){
 
         return(
             <div>
-
+                <h1>Hello Vue lovers</h1>
             </div>
         )
        }            
         
-        else if(this.state.activetab === 2){
+        else if(this.state.activetab === 1){
             return (
            <div><h1>hello angular lovers</h1></div> 
                 )
@@ -114,9 +124,11 @@ class projects extends Component {
             <div className='category-tabs'>
                 <Tabs activeTab= {this.state.activetab} onChange ={ (tabId)=>this.changeState(tabId)}  >
                     <Tab className='tabs'>React</Tab>
+                    <Tab className='tabs'>HTML/CSS</Tab>
                     <Tab className='tabs'>Angular</Tab>
                     <Tab className='tabs'>vuejs</Tab>
                     <Tab className='tabs'>mongo-db</Tab>
+                    <Tab className='tabs'>C++</Tab>
                     
                 </Tabs>
 

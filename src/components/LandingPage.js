@@ -11,9 +11,9 @@ class LandingPage extends Component {
                        < img src = 'https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png'   alt='avatar' className = 'avatar-logo' / >
 
                      <div className = 'banner-text' >
-                         <h1> Front-End Web Developer </h1> 
+                         <h1> Full-Stack Web Developer </h1> 
                          <hr />
-                         <p> HTML / CSS | Javascript | Bootstraop | React | Mysql </p>
+                         <p> HTML / CSS | Javascript | Bootstraop | React | Mysql | nodejs | Express </p>
                    
 
                          <div className='social-icons' >
