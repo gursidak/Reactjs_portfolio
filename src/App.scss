@@ -317,6 +317,8 @@ h3{
   height:100%;
   position: static;
 
+  
+
 .contact-grid{
 
   align-items: center;
@@ -328,7 +330,7 @@ h3{
   width: 80%;
   height: 550px;
   margin-top: 0px;
-  opacity: 1;
+  // opacity: 1;
 
 
     // @include Center();
@@ -369,7 +371,7 @@ h3{
 
 
   &:hover{
-    opacity: 97%;
+    opacity: 1;
     // border: 2px solid red;
     transition:opacity 0.4s;
 
